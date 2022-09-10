@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+footer{
+  background: #FF525A;
+  width: 100vw;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #FF525A;
+  box-shadow: 1px 2px 7px #FF525A;
+}
+
+footer h5{
+  color: #FFFF;
+  font-family: 'PT Sans', sans-serif;
+}
+
+footer p{
+  color: #FFFF;
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 15px;
+  
+}
+
+@media screen and (min-width: 762px){
+  footer{
+    height: 230px;
+   
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+  footer{
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  footer{
+    height: 150px;
+   
+  }
+}

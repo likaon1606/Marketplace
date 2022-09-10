@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-detail{
+    width: 300px;
+}
+
+.return-home{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*FAVORITES*/
+.return-home button{
+    background: none;
+    border: none;
+    margin-right: 1rem;
+    font-size: 20px;
+}
+
+.return-home .fa-bookmark{
+    color: #FF525A;
+    width: 50px;
+}
+
+
+/*LINK HOME*/
+.link-home{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.link-home :Link{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.link-home h3{
+    color: black;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.link-home article{
+    font-family: 'PT Sans', sans-serif;
+    color: #383B3B;
+}
+
+.icon-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link-home .fa-circle{
+    font-size: 5px;
+    color: #FF525A;
+}
+
+/*---------------PRODUCST-DESCRIPTION--------------------*/
+
+.card-desc{
+    display: flex;
+    justify-content: center;
+}
+.product-desc{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.img-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    flex-direction: column;
+    height: 400px;
+}
+
+.card-img img{
+    height: 200px;
+}
+
+.product-detatl img{
+    object-fit: contain;
+}
+
+.seconds-imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.seconds-imgs img{
+    width: 100px;
+    height: 80px;
+    border: 1px solid #FF525A;
+    box-shadow: 1px 2px rgb(0,0,0, .1);
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+.seconds-imgs img{
+    object-fit: contain;
+}
+
+.desc-detail{
+    height: 400px;
+    justify-content: space-between;
+}
+
+
+.desc-detail h3{
+    margin-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+    color: #585B5C;
+}
+
+.desc-detail p{
+    font-family: 'Roboto', sans-serif;
+    color: #8A8D8E;
+}
+
+.desc-detail article{
+    font-family: 'PT Sans', sans-serif;
+    color: #8A8D8E;
+    margin-top: 10px;
+}
+
+.desc-detail .price{
+    color: #383B3B;
+    margin-top: 5px;
+}
+
+.desc-detail{
+    width: 370px;
+    padding: 10px;
+}
+
+.desc-detail button{
+    width: 100%;
+    height: 40px;
+    background: #FF525A;
+    color: #FFFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.desc-detail i{
+    color: #FFFF;
+}
+
+h4{
+    margin-left: 20px;
+    color: #FF525A;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 420px;
+}
+
+
+/*-------------------Discover similar products------------------*/ 
+.recomend{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.product-recomend{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 85vw;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+
+.product h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.product article{
+    font-family: 'Roboto', sans-serif;
+}
+
+.product p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*---------------------PUERCHASE-CARD--------------------*/ 
+
+
+
+@media screen and (min-width: 762px){
+    /*LINK HOME*/
+    .link-home{
+        margin-left: 1rem;
+    }
+
+    .return-home button{
+        margin-right: 1.5rem;
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    /*LINK HOME*/
+    .link-home{
+        margin-left: 1.5rem;
+    }
+    .return-home button{
+        margin-right: 2.5rem;
+    }
+
+  }
+  
+  @media screen and (min-width: 1280px){
+
+    
+    
+  }
